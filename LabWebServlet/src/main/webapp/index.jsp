@@ -12,20 +12,11 @@
 
 <h3>Welcome ${user.custid}</h3>
 
-<<<<<<< HEAD
-<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Poduct</a></h3>
-=======
-<<<<<<< HEAD
-<h2>更新更新更新更新更新更新更新更新更新更新更新更新</h2>
-<h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
-<h3><a href="<c:url value="/pages/product.jsp" />">Product</a></h3>
-<h2>更新更新更新更新更新更新更新更新更新更新更新更新</h2>
-=======
+
 <h3><a href="<c:url value="/secure/login.jsp" />">Login</a></h3>
 <h3><a href="<c:url value="/pages/product.jsp" />">Product</a></h3>
 >>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
 >>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
-<h3>智文蘋果真的好好吃</h3>
+
 </body>
 </html>
