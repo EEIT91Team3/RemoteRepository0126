@@ -6,6 +6,7 @@ public class ProductBean {
 	private double price;
 	private java.util.Date make;
 	private int expire;
+	private int salary;
 
 	@Override
 	public boolean equals(Object obj) {
