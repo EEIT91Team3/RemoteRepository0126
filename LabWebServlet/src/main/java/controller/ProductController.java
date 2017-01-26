@@ -24,6 +24,9 @@ import model.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
+	private void sysout() {
+		// TODO Auto-generated method stub
+	}
 	@InitBinder
 	public void registerCustomerEditor(WebDataBinder webDataBinder) {
 		webDataBinder.registerCustomEditor(java.util.Date.class,
