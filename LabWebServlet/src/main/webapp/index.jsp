@@ -27,5 +27,8 @@
 >>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
 >>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
 <h3>智文蘋果真的好好吃</h3>
+<h3>智文蘋果真的好好吃</h3>
+<h3>智文蘋果真的好好吃</h3>
+<h3>智文蘋果真的好好吃</h3>
 </body>
 </html>
