@@ -7,6 +7,7 @@ public class RegisterDispatcherServlet extends AbstractAnnotationConfigDispatche
 	protected Class<?>[] getRootConfigClasses() {
 		return null;
 	}
+	int aaa;
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		return new Class[] {SpringMvcJavaConfig.class};
