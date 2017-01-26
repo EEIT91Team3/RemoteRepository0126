@@ -4,7 +4,9 @@ public class CustomerBean {
 	private String custid;
 	private byte[] password;
 	private String email;
+	private int salary;
 	private java.util.Date birth;
+	private String custid10000;
 	@Override
 	public String toString() {
 		return custid+","+email+","+birth;
@@ -34,4 +36,6 @@ public class CustomerBean {
 	public void setBirth(java.util.Date birth) {
 		this.birth = birth;
 	}
+	
+    
 }
