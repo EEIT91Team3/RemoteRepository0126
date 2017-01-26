@@ -6,7 +6,10 @@ public class ProductBean {
 	private double price;
 	private java.util.Date make;
 	private int expire;
+<<<<<<< HEAD
 	private int salary;
+=======
+>>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
 
 	@Override
 	public boolean equals(Object obj) {

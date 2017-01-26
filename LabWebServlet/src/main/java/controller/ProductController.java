@@ -24,6 +24,15 @@ import model.ProductService;
 public class ProductController {
 	@Autowired
 	private ProductService productService;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+	private void sysout() {
+		// TODO Auto-generated method stub
+	}
+=======
+>>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
+>>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
 	@InitBinder
 	public void registerCustomerEditor(WebDataBinder webDataBinder) {
 		webDataBinder.registerCustomEditor(java.util.Date.class,
