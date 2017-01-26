@@ -27,24 +27,22 @@ public class LoginController {
 		model.addAttribute("errors", errors);
 
 		if(username==null || username.length()==0) {
-<<<<<<< HEAD
+
 			errors.put("username", "ID是必要欄位(mvc)");
 		}
 		if(password==null || password.length()==0) {
 			errors.put("password", "PWD是必要欄位(mvc)");
-=======
-<<<<<<< HEAD
+
 			errors.put("username", "ID是必要欄位(mvc)");
 		}
 		if(password==null || password.length()==0) {
 			errors.put("password", "PWD是必要欄位(mvc)");
-=======
+
 			errors.put("username", "ID是必要欄位(mvc3)");
 		}
 		if(password==null || password.length()==0) {
 			errors.put("password", "PWD是必要欄位(mvc3)");
->>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
->>>>>>> branch 'master' of https://github.com/EEIT91Team3/RemoteRepository0126
+
 		}
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.error";
