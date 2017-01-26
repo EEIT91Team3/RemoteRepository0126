@@ -27,10 +27,10 @@ public class LoginController {
 		model.addAttribute("errors", errors);
 
 		if(username==null || username.length()==0) {
-			errors.put("username", "ID是必要欄位(mvc2)");
+			errors.put("username", "ID是必要欄位(mvc3)");
 		}
 		if(password==null || password.length()==0) {
-			errors.put("password", "PWD是必要欄位(mvc2)");
+			errors.put("password", "PWD是必要欄位(mvc3)");
 		}
 		if(errors!=null && !errors.isEmpty()) {
 			return "login.error";
